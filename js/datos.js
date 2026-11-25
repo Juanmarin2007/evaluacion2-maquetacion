@@ -27,21 +27,22 @@
  */
 
 const configuracion = {
-  titulo: '',
-  campoOrden: '',
-  etiquetaValor: ''
+  titulo: 'Huellitas Clínica Veterinaria',
+  campoOrden: 'precio',
+  etiquetaValor: 'Precio'
 };
 
 const items = [
-  // Ejemplo de la forma (tema Mercado campesino). Bórralo y escribe los tuyos.
-  // {
-  //   id: 1,
-  //   nombre: 'Mora de Castilla',
-  //   categoria: 'frutas',
-  //   descripcion: 'Mora fresca de las veredas de Santa Rosa de Cabal.',
-  //   imagen: 'img/placeholder.svg',
-  //   precio: 6500,
-  //   unidad: 'libra',
-  //   municipio: 'Santa Rosa de Cabal'
-  // },
+  { id: 1, nombre: 'Consulta general', categoria: 'consulta', descripcion: 'Revisión completa del estado de salud.', imagen: 'img/placeholder.svg', precio: 60000, duracionMinutos: 30, especie: 'perros y gatos' },
+  { id: 2, nombre: 'Consulta de urgencias', categoria: 'consulta', descripcion: 'Atención prioritaria sin cita previa.', imagen: 'img/placeholder.svg', precio: 95000, duracionMinutos: 45, especie: 'perros y gatos' },
+  { id: 3, nombre: 'Control de cachorro', categoria: 'consulta', descripcion: 'Revisión, peso y plan de cuidados.', imagen: 'img/placeholder.svg', precio: 50000, duracionMinutos: 30, especie: 'perros' },
+  { id: 4, nombre: 'Vacuna múltiple canina', categoria: 'vacunacion', descripcion: 'Protege contra moquillo, parvovirus y más.', imagen: 'img/placeholder.svg', precio: 70000, duracionMinutos: 15, especie: 'perros' },
+  { id: 5, nombre: 'Vacuna triple felina', categoria: 'vacunacion', descripcion: 'Protección básica para gatos.', imagen: 'img/placeholder.svg', precio: 65000, duracionMinutos: 15, especie: 'gatos' },
+  { id: 6, nombre: 'Vacuna antirrábica', categoria: 'vacunacion', descripcion: 'Vacuna obligatoria contra la rabia.', imagen: 'img/placeholder.svg', precio: 35000, duracionMinutos: 10, especie: 'perros y gatos' },
+  { id: 7, nombre: 'Baño y cepillado', categoria: 'estetica', descripcion: 'Baño con champú suave y secado.', imagen: 'img/placeholder.svg', precio: 45000, duracionMinutos: 60, especie: 'perros' },
+  { id: 8, nombre: 'Corte de pelo', categoria: 'estetica', descripcion: 'Corte según la raza y el gusto del dueño.', imagen: 'img/placeholder.svg', precio: 55000, duracionMinutos: 90, especie: 'perros' },
+  { id: 9, nombre: 'Corte de uñas', categoria: 'estetica', descripcion: 'Corte y limado seguro de uñas.', imagen: 'img/placeholder.svg', precio: 15000, duracionMinutos: 15, especie: 'perros y gatos' },
+  { id: 10, nombre: 'Cuadro hemático', categoria: 'laboratorio', descripcion: 'Examen de sangre completo.', imagen: 'img/placeholder.svg', precio: 48000, duracionMinutos: 20, especie: 'perros y gatos' },
+  { id: 11, nombre: 'Coprológico', categoria: 'laboratorio', descripcion: 'Examen para detectar parásitos.', imagen: 'img/placeholder.svg', precio: 30000, duracionMinutos: 15, especie: 'perros y gatos' },
+  { id: 12, nombre: 'Ecografía abdominal', categoria: 'laboratorio', descripcion: 'Imagen de órganos internos.', imagen: 'img/placeholder.svg', precio: 120000, duracionMinutos: 40, especie: 'perros y gatos' }
 ];
