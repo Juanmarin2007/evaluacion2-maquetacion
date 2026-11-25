@@ -6,7 +6,7 @@ Tema: Clínica veterinaria
 Empresa: Huellitas Clínica Veterinaria
 
 Repositorio:https://github.com/Juanmarin2007/evaluacion2-maquetacion.git
-Sitio publicado: 
+Sitio publicado:  https://juanmarin2007.github.io/evaluacion2-maquetacion/
 
 ## Resultado del verificador
 
