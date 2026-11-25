@@ -34,6 +34,7 @@
  */
 
 
+
 :root {
   --marca-primario: #0f6b80;
   --marca-secundario: #f5a623;
@@ -48,7 +49,7 @@
 
 h1, h2, h3 { font-family: var(--marca-fuente-titulos); }
 
-.navbar { background-color: #fff; border-bottom: 3px solid var(--marca-secundario); }
+.navbar { background-color: var(--marca-fondo); border-bottom: 3px solid var(--marca-secundario); }
 
 .btn-filtro {
   --bs-btn-color: var(--marca-primario);
