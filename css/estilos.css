@@ -33,6 +33,36 @@
  *   https://fonts.google.com/
  */
 
+
 :root {
-  /* TODO */
+  --marca-primario: #0f6b80;
+  --marca-secundario: #f5a623;
+  --marca-fondo: #f3fafb;
+  --marca-texto: #1b2b30;
+  --marca-fuente: 'Nunito Sans', sans-serif;
+  --marca-fuente-titulos: 'Nunito', sans-serif;
+  --bs-body-bg: var(--marca-fondo);
+  --bs-body-color: var(--marca-texto);
+  --bs-body-font-family: var(--marca-fuente);
 }
+
+h1, h2, h3 { font-family: var(--marca-fuente-titulos); }
+
+.navbar { background-color: #fff; border-bottom: 3px solid var(--marca-secundario); }
+
+.btn-filtro {
+  --bs-btn-color: var(--marca-primario);
+  --bs-btn-border-color: var(--marca-primario);
+  --bs-btn-hover-bg: var(--marca-primario);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: var(--marca-primario);
+  --bs-btn-active-bg: var(--marca-primario);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-border-color: var(--marca-primario);
+}
+
+.badge { background-color: var(--marca-secundario); color: var(--marca-texto); }
+
+footer { background-color: var(--marca-texto); color: #fff; }
+
+:focus-visible { outline: 3px solid var(--marca-secundario); outline-offset: 2px; }
