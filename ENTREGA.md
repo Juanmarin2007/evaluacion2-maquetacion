@@ -1,12 +1,12 @@
 # Entrega - Evaluación 2
 
-Nombre: 
-Tema número: 
-Tema: 
-Empresa: 
+Nombre: juan esteban marin arias 
+Tema número: 6
+Tema: Clínica veterinaria
+Empresa: Huellitas Clínica Veterinaria
 
-Repositorio: https://github.com/USUARIO/evaluacion2-maquetacion
-Sitio publicado: https://USUARIO.github.io/evaluacion2-maquetacion/
+Repositorio:https://github.com/Juanmarin2007/evaluacion2-maquetacion.git
+Sitio publicado: 
 
 ## Resultado del verificador
 
